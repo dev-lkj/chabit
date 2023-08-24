@@ -1,4 +1,5 @@
 # chabit_web
+차빗 메인 소개 페이지 입니다. (23.08.24 이경진)
 
 ## Project setup
 ```
