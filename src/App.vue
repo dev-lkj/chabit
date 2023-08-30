@@ -32,4 +32,5 @@ export default {
   width:100vw;
   position: relative;
 }
+
 </style>

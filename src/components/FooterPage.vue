@@ -56,6 +56,7 @@
     .family-site {
         margin-top:55px;
         display:flex;
+        overflow: scroll;
         
     }
     .family-site li{
@@ -66,6 +67,7 @@
         padding:59px 0;
         margin-right:37px;
     }
+   
 
     .family-site li h3{
         text-align: center;
@@ -90,7 +92,10 @@
         border-radius: 30px;
         font-weight: 600;
         font-size:14px;
-        
+    }
+    .family-site li p a:hover {
+        background-color: #01504E;
+        color: #fff;
     }
     .line{
         margin-top:121px;
@@ -115,7 +120,27 @@
         font-size: 20px;
         font-weight: 600;
     }
+     /* 노트북 & 테블릿 가로 (해상도 1024px ~ 1279px)*/ 
+     @media all and (min-width:1024px) and (max-width:1279px) { 
+       
+      } 
 
+      /* 테블릿 가로 (해상도 768px ~ 1023px)*/ 
+      @media all and (min-width:768px) and (max-width:1023px) { 
+      
+      } 
+
+      /* 모바일 가로 & 테블릿 세로 (해상도 480px ~ 767px)*/ 
+      @media all and (min-width:480px) and (max-width:767px) {
+      
+      } 
+
+      /* 모바일 세로 (해상도 ~ 479px)*/ 
+      @media all and (max-width:479px) {
+       footer {
+        padding: 100px;
+       }
+      }
 
   </style>
   
